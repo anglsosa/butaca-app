@@ -91,7 +91,7 @@ page("index.html", "Butaca · Qué ver en pareja", "Guarda películas y series, 
   <a class="btn" href="soporte.html">Soporte <span>Contacto</span></a>
 </section>
 <section class="grid">
-  <div class="feature"><h3>Tu banco</h3><p>Películas y series por ver y vistas, con progreso y calificación. Funciona sin internet.</p></div>
+  <div class="feature"><h3>Tu banco</h3><p>Películas y series por ver y vistas, con progreso y calificación. En tu iCloud, sin cuentas.</p></div>
   <div class="feature"><h3>Para ti</h3><p>Recomendaciones que aprenden de lo que guardas, calificas y deslizas.</p></div>
   <div class="feature"><h3>Modo pareja</h3><p>Conecten sus teléfonos en la misma red, deslicen hasta 100 títulos y hagan match.</p></div>
   <div class="feature"><h3>Dónde verla</h3><p>Plataformas disponibles en tu país, reparto, tráiler y títulos parecidos.</p></div>
@@ -116,10 +116,11 @@ page("soporte.html", "Soporte · Butaca", "Ayuda y contacto de Butaca.", f"""
   <p>Teléfono / WhatsApp: <a href="tel:+522481284457">{CONTACT_PHONE}</a></p>
 </div>
 <h2>Preguntas frecuentes</h2>
-<p><strong>¿Necesito una cuenta?</strong> No. Puedes usar Butaca sin cuenta; iniciar sesión con Apple solo sirve para tener tu banco en todos tus dispositivos.</p>
+<p><strong>¿Necesito una cuenta?</strong> No. Butaca no tiene cuentas: tu banco se guarda en tu iPhone y, si tienes iCloud activo, se sincroniza solo en todos tus dispositivos.</p>
 <p><strong>¿Cómo funciona el modo pareja?</strong> Ambos abren Butaca → corazón → uno crea la sala y el otro se une estando en la misma red Wi‑Fi (o cerca por Bluetooth). Acepten el permiso de Red local.</p>
 <p><strong>No encuentro la sala de mi pareja.</strong> Verifiquen que estén en la misma red y que Butaca tenga permiso en Ajustes → Privacidad → Red local.</p>
-<p><strong>¿Cómo elimino mi cuenta o mis datos?</strong> En la app: avatar → Mi perfil → Cuenta → Eliminar cuenta (o "Borrar mis datos de la nube" si no iniciaste sesión).</p>
+<p><strong>¿Cómo borro mis datos?</strong> En la app: avatar → Mi perfil → Tus datos → Borrar todos mis datos. Se elimina de tu iPhone y de tu iCloud.</p>
+<p><strong>No veo mi banco en otro dispositivo.</strong> Verifica que ambos usen el mismo Apple ID con iCloud activo para Butaca (Ajustes → tu nombre → iCloud).</p>
 <p><strong>¿De dónde salen los datos de las películas?</strong> De TMDB; la disponibilidad en plataformas, de JustWatch.</p>
 </article>
 """, "s")
